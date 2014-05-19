@@ -1,0 +1,7 @@
+&,INFO,REG_ID,DSSAT_WEATHER,! Assigned by econ modeling teams,,,,,,,
+&,INFO,STRATUM,,! Assigned by econ modeling teams,,,,,,,
+&,INFO,RAP_ID,,! Blank for baseline simulation,,,,,,,
+&,INFO,MAN_ID,,! Management ID,,,,,,,
+&,INFO,RAP_VER,,! Blank or zero for baseline simulation. Used for changes to RAP from a previous set of simulations.,,,,,,,
+&,INFO,DESCRIPTION,FIELD,! FIELD=field overlay for filling in regional assumptions,,,,,,,
+&,REPLACE,TAV,TAVAMP(),! Calculates TAV and TAMP based on daily weather records,,,,,,,
