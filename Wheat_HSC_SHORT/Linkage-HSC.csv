@@ -1,0 +1,4 @@
+! Definitions,Experiment name,Dome name for field overlay (regional management assumptions),Dome name for seasonal strategy (multi-year or management regimens)
+! Units,,Copy name(s) from field overlay file,Copy name(s) from seasonal strategy file
+#,EXNAME,FIELD_OVERLAY,SEASONAL_STRATEGY
+*,ARMA0701,HSC-----FIELD,
