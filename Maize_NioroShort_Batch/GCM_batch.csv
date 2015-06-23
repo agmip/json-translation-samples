@@ -1,0 +1,19 @@
+&,INFO,REG_ID,Generic,! Assigned by modeling teams,
+&,INFO,Stratum,,! Assigned by modeling teams,
+&,INFO,RAP_ID,,! Blank for baseline simulation,
+&,INFO,MAN_ID,,! Management ID,
+&,INFO,RAP_VER,,! Blank or zero for baseline simulation. Used for changes to RAP from a previous set of simulations.,
+&,INFO,CLIM_ID,,! Climate ID,
+&,INFO,DESCRIPTION,GCM,,
+@,0XFX,1,REPLACE,CO2Y,360
+@,0XFX,1,REPLACE,CLIM_ID,0XFX
+@,IEFA,1,REPLACE,CO2Y,571
+@,IEFA,1,REPLACE,CLIM_ID,IEFA
+@,IIFA,1,REPLACE,CO2Y,571
+@,IIFA,1,REPLACE,CLIM_ID,IIFA
+@,IKFA,1,REPLACE,CO2Y,571
+@,IKFA,1,REPLACE,CLIM_ID,IKFA
+@,IOFA,1,REPLACE,CO2Y,571
+@,IOFA,1,REPLACE,CLIM_ID,IOFA
+@,IRFA,1,REPLACE,CO2Y,571
+@,IRFA,1,REPLACE,CLIM_ID,IRFA
