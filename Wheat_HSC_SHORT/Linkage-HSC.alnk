@@ -1,0 +1,4 @@
+!,"Name of experiment, field test or survey",Field Overlay (DOME) ID,Seaonal Strategy (DOME) ID,Rotational Analysis (DOME) ID
+!,text,text,text,text
+#,EXNAME,FIELD_OVERLAY,SEASONAL_STRATEGY,ROTATIONAL_ANALYSIS
+*,"ARMA0701",HSC------FIELD,,

@@ -1,0 +1,12 @@
+$BATCH(DURUM WHEAT)
+!
+! Command Line : C:\DSSAT46\DSCS0M46.EXE B DSSBatch.v46
+! Crop         : Durum wheat
+! Experiment   : ARMA0701.WHX
+! ExpNo        : 1
+! Debug        : C:\DSSAT46\DSCSM046.EXE " B DSSBatch.v46"
+!
+@FILEX                                                                                        TRTNO     RP     SQ     OP     CO
+ARMA0701.WHX                                                                                      1      1      1      1      0
+ARMA0701.WHX                                                                                      2      1      1      1      0
+ARMA0701.WHX                                                                                      3      1      1      1      0

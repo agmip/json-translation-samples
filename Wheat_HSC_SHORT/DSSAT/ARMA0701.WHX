@@ -1,0 +1,135 @@
+*EXP.DETAILS: ARMA0701WH Maricopa, AZ
+
+! APPLIED DOME INFO
+! 13MAR07 C pl=  6 Field    	HSC------FIELD
+! 13MAR07 C pl=  8 Field    	HSC------FIELD
+! 13MAR07 C pl= 10 Field    	HSC------FIELD
+
+*GENERAL
+@ADDRESS
+ USDA ARS, Arid Land Agricultural Center
+@SITE
+ Maricopa Agric. Center, Univ. Arizona
+@NOTES
+ Cultivar Additional Info
+ C   RM CNAME            CUL_NOTES
+ 1  -99 Spring wheat, little vernalization requirement, low photoperiod sensitivity
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 13MAR07 C pl=  6           1  1  1  1  1  1  1  0  0  0  0  0  1
+ 2 1 1 0 13MAR07 C pl=  8           1  1  1  1  2  2  2  0  0  0  0  0  1
+ 3 1 1 0 13MAR07 C pl= 10           1  1  1  1  3  3  2  0  0  0  0  0  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 WH CI0001 -99
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 -99      AZ000307   -99   -99 -99     -99   -99 -99   CL     -99  AZMC920001 -99
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1         -114.53          33.069       361               -99   -99   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1   -99   -99   -99   -99  -99
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1     5   -99  0.41   -99   -99   -99   -99   -99  0.23
+ 1    15   -99  0.35   -99   -99   -99   -99   -99  0.19
+ 1    30   -99  0.27   -99   -99   -99   -99   -99  0.17
+ 1    50   -99  0.24   -99   -99   -99   -99   -99  0.22
+ 1    60   -99  0.16   -99   -99   -99   -99   -99  0.16
+ 1    70   -99  0.16   -99   -99   -99   -99   -99  0.16
+ 1    90   -99   0.3   -99   -99   -99   -99   -99  0.29
+ 1   110   -99   0.1   -99   -99   -99   -99   -99  0.10
+ 1   120   -99   0.1   -99   -99   -99   -99   -99  0.10
+ 1   130   -99   0.1   -99   -99   -99   -99   -99  0.10
+ 1   150   -99     0   -99   -99   -99   -99   -99  0.00
+ 1   170   -99     0   -99   -99   -99   -99   -99  0.00
+ 1   190   -99     0   -99   -99   -99   -99   -99  0.00
+ 1   210   -99     0   -99   -99   -99   -99   -99  0.00
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1   -99 07042   -99   -99   -99   -99   -99   -99   -99   -99   -99   -99 -99
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5 0.261     2     5
+ 1    15 0.260     2     5
+ 1    30 0.259     2     5
+ 1    50 0.258     2     5
+ 1    60 0.258     2     5
+ 1    70 0.258     2     5
+ 1    90 0.243     2     5
+ 1   110 0.217     2     5
+ 1   120 0.217     2     5
+ 1   130 0.217     2     5
+ 1   150 0.195     2     5
+ 1   170 0.195     2     5
+ 1   190 0.186     2     5
+ 1   210 0.186     2     5
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 07072   -99   265   265     S     R    19   -99   2.5   -99   -99   -99   -99   -99                        -99
+ 2 07072   -99   320   320     S     R    19   -99   2.5   -99   -99   -99   -99   -99                        -99
+ 3 07072   -99   276   276     S     R    19   -99   2.5   -99   -99   -99   -99   -99                        -99
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1   -99   -99   -99   -99   -99   -99   -99 -99
+@I IDATE  IROP IRVAL
+ 1 07078 IR005  94.1
+ 1 07086 IR005   9.7
+ 1 07087 IR005    10
+ 1 07094 IR005  32.3
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2   -99   -99   -99   -99   -99   -99   -99 -99
+@I IDATE  IROP IRVAL
+ 2 07080 IR005  94.1
+ 2 07086 IR005   8.6
+ 2 07087 IR005   8.5
+ 2 07094 IR005  31.1
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3   -99   -99   -99   -99   -99   -99   -99 -99
+@I IDATE  IROP IRVAL
+ 3 07080 IR005  94.1
+ 3 07086 IR005   7.7
+ 3 07087 IR005   7.9
+ 3 07094 IR005  32.7
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 07072 FE007 AP002    15    51   -99   -99   -99   -99   -99 -99
+ 1 07103 FE010 AP005    15    57   -99   -99   -99   -99   -99 -99
+ 1 07116 FE010 AP005    15    56   -99   -99   -99   -99   -99 -99
+ 1 07131 FE010 AP005    15    56   -99   -99   -99   -99   -99 -99
+ 2 07072 FE007 AP002    15    51   -99   -99   -99   -99   -99 -99
+ 2 07103 FE010 AP005    15    55   -99   -99   -99   -99   -99 -99
+ 2 07116 FE010 AP005    15    56   -99   -99   -99   -99   -99 -99
+ 2 07131 FE010 AP005    15    56   -99   -99   -99   -99   -99 -99
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME....................
+ 1 GE              1     1     S 07042  2150 DEFAULT SIMULATION CONTROL
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     P     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT
+ 1 OU              N     Y     Y     1     Y     Y     N     N     N     N     N     N     N
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          82050 82064    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10  1.00
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 83057   100     0
+
